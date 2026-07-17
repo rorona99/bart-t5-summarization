@@ -1,13 +1,13 @@
-#Model Documentation
+# Model Documentation
 
-##TASK
+## TASK
 Abstractive sccientific paper summarization using pretrained transformer models
 
 ## Models Selected
 
 ### BART (facebook/bart-larg-cnn)
-- Architecture: Encorder-decoder transformer
-- Training approach: Denoisin pretraining - learns to reconstruct text from corrupted input
+- Architecture: Encoder-decoder transformer
+- Training approach: Denoising pretraining - learns to reconstruct text from corrupted input
 - Why selected: Strong at generating fluent, cohernt summaries of longer documents
 - Used as pretrained model, no fine-tuning
 
