@@ -1,0 +1,42 @@
+# This script runs ROGUE evaluation on BART and T5 summaries
+
+from rouge_score import rouge_scorer
+
+def evaluate_summary(reference, generated):
+    """
+    Scores a generated summary against a reference abstract using ROGUE metrics
+    """
+    scorer = rogue_scorer.RougeScorer(
+        ['rogue1', 'rogue2', 'rogueL'],
+        use_stemmer=True
+    )
+    scorer = scorer.score(reference, generated)
+    return {
+        'rougue1':  round(scores['rouge1'].fmeasure, 4),
+        'rougue2':  round(scores['rouge2'].fmeasure, 4),
+        'rougueL':  round(scores['rougeL'].fmeasure, 4),
+      }
+
+def compare_models(reference, bart_summary, t5_summary):
+    """
+    Compares BART and T5 summaries against the same reference
+    """
+    bart_scores = evaluate_summary(reference, bart_summary)
+    t5_scores = evaluate_summary(reference, t5_summary)
+
+    print('----- ROGUE SCORES ------')
+    print(f'BART - ROUGE-1: {bart_scores['rogue1']} | ROUGE-2: {bart_scores['rouge2']} | ROUGE-L: {bart_scores['rougeL']}')
+    print(f'T5 - ROUGE-1: {t5_scores['rogue1']} | ROUGE-2: {t5_scores['rogue2']} | ROUGE-L: {t5_scores['rogueL']}')
+
+    return bart_scores, t5_scores
+
+
+# Example usage
+if __name__ == '__main__':
+    reference = 'mRNA vaccines introduce genetic code that trains the immune sstem to fight a virus'
+    bart_summary = 'Messenger RNA vaccines work by introducing genetic code that intructs cells to roduce a protein. The immune system builds a defense against it.'
+    t5_summary = 'mRNA vacines work by introducing a piece of genetic code into the body that instructs cels to produce a protein.'
+
+    compare_models(reference, bart_summary, t5_summary)
+    
+    
