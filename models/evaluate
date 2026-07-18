@@ -1,16 +1,16 @@
-# This script runs ROGUE evaluation on BART and T5 summaries
+# This script runs ROUGE evaluation on BART and T5 summaries
 
 from rouge_score import rouge_scorer
 
 def evaluate_summary(reference, generated):
     """
-    Scores a generated summary against a reference abstract using ROGUE metrics
+    Scores a generated summary against a reference abstract using ROUGE metrics
     """
-    scorer = rogue_scorer.RougeScorer(
-        ['rogue1', 'rogue2', 'rogueL'],
+    scorer = rouge_scorer.RougeScorer(
+        ['rouge1', 'rouge2', 'rougeL'],
         use_stemmer=True
     )
-    scorer = scorer.score(reference, generated)
+    scores = scorer.score(reference, generated)
     return {
         'rougue1':  round(scores['rouge1'].fmeasure, 4),
         'rougue2':  round(scores['rouge2'].fmeasure, 4),
@@ -24,9 +24,9 @@ def compare_models(reference, bart_summary, t5_summary):
     bart_scores = evaluate_summary(reference, bart_summary)
     t5_scores = evaluate_summary(reference, t5_summary)
 
-    print('----- ROGUE SCORES ------')
-    print(f'BART - ROUGE-1: {bart_scores['rogue1']} | ROUGE-2: {bart_scores['rouge2']} | ROUGE-L: {bart_scores['rougeL']}')
-    print(f'T5 - ROUGE-1: {t5_scores['rogue1']} | ROUGE-2: {t5_scores['rogue2']} | ROUGE-L: {t5_scores['rogueL']}')
+    print('----- ROUGE SCORES ------')
+    print(f'BART - ROUGE-1: {bart_scores['rouge1']} | ROUGE-2: {bart_scores['rouge2']} | ROUGE-L: {bart_scores['rougeL']}')
+    print(f'T5 - ROUGE-1: {t5_scores['rouge1']} | ROUGE-2: {t5_scores['rouge2']} | ROUGE-L: {t5_scores['rougeL']}')
 
     return bart_scores, t5_scores
 
