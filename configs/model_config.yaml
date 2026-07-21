@@ -1,0 +1,25 @@
+# Model Configuaration File: controls the hyperparameters for BART and T5 summarization
+
+models:
+  bart:
+    name: "facebook/bart-large-cnn"
+    max_input_length: 1024
+    max_output_length: 150 
+    min_output_length: 30 
+
+  t5:
+    name: "google/flan-t5-base"
+    max_input_length: 512
+    max_output_length: 150
+    min_output_length: 30
+
+data:
+    max_words_per_paper: 800
+    output_dir: "outputs/"
+    processed_dir: "data/processed/"
+
+evaluation:
+  metrics:
+    - rouge1
+    - rouge2
+    - rougeL
