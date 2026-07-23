@@ -1,0 +1,93 @@
+BART vs T5 Summarization Results
+============================================================
+
+Paper ID: paper_01
+Title: Development of mRNA Vaccines and Their Delivery System
+Field: medicine
+Source: https://pubmed.ncbi.nlm.nih.gov/36697236/
+Reference Abstract: The rapid development of mRNA vaccines has contributed to the management of the COVID-19 pandemic, suggesting this technology may be used to manage future outbreaks of infectious diseases.
+BART Summary: The rapid development of mRNA vaccines has contributed to the management of the current coronavirus disease 2019 COVID-19 pandemic. Because the antigens targeted by mRNA vaccines can be easily altered by simply changing the sequence present in the coding region of mRNA structures it is more appropriate to develop vaccines.
+T5 Summary: Molecular RNA vaccines are a promising development for rapid development of vaccines. They can be used to develop vaccines for future outbreaks of infectious diseases.
+------------------------------------------------------------
+
+Paper ID: paper_02
+Title: SARS-CoV-2 mRNA Vaccines: Immunological Mechanism and Beyond
+Field: medicine
+Source: https://pubmed.ncbi.nlm.nih.gov/33673048/
+Reference Abstract: To successfully protect against pathogen infection a vaccine must elicit efficient adaptive immunity including B and T cell responses.
+BART Summary:  mRNA vaccines represent a promising platform for infectious disease prevention. They can rapidly encode any antigen of interest and stimulate both humoral and cellular immune responses.
+T5 Summary: mRNA vaccines are a promising platform for infectious disease prevention. They can rapidly encode any antigen of interest and stimulate both humoral and cellular immune responses.
+------------------------------------------------------------
+
+Paper ID: paper_03
+Title: Molecular Mechanisms of Antibiotic Resistance Revisited
+Field: medicine
+Source: https://pubmed.ncbi.nlm.nih.gov/36411397/
+Reference Abstract: Antibiotic resistance is a global health emergency with resistance detected to all antibiotics currently in clinical use and only a few novel drugs in the pipeline.
+BART Summary: Antibiotic resistance is a global health emergency with resistance detected to all antibiotics currently in clinical use. Understanding the molecular mechanisms that bacteria use to resist the action of antimicrobials is critical to recognize global patterns of resistance.
+T5 Summary: Understanding the molecular mechanisms that bacteria use to resist the action of antimicrobials is critical to understanding global patterns of resistance and to improve the use of current drugs as well as for the design of new drugs less susceptible to resistance development and novel strategies to combat resistance.
+------------------------------------------------------------
+
+Paper ID: paper_04
+Title: Global Burden of Bacterial Antimicrobial Resistance in 2019
+Field: medicine
+Source: https://pubmed.ncbi.nlm.nih.gov/35065702/
+Reference Abstract: Antimicrobial resistance is a major global health threat causing millions of deaths annually across bacterial pathogens and infection types worldwide.
+BART Summary: Antimicrobial resistance is a major cause of death worldwide. The study estimated the global burden of antimicrobial resistance using predictive statistical modelling. Resistance to antibiotics was found across a wide range of bacterial pathogens and infection types.
+T5 Summary: A global burden of antimicrobial resistance is estimated using predictive statistical modelling. The results are useful for identifying the causes of antimicrobial resistance.
+------------------------------------------------------------
+
+Paper ID: paper_05
+Title: CRISPR Technology: A Decade of Genome Editing
+Field: biology
+Source: https://pubmed.ncbi.nlm.nih.gov/36656942/
+Reference Abstract: CRISPR-Cas9 has transformed biological research and medicine over the past decade enabling precise genome editing across a wide range of organisms and applications.
+BART Summary: CRISPR-Cas9 has become one of the most powerful tools in biology and medicine. The technology allows scientists to make precise changes to DNA sequences in virtually any organism.
+T5 Summary: CRISPR-Cas9 is a new tool for genome editing. It is a new tool for genome editing. It is a new tool for genome editing.
+------------------------------------------------------------
+
+Paper ID: paper_06
+Title: CRISPR/Cas9 Gene Editing in Hematological Disorders
+Field: biology
+Source: https://pubmed.ncbi.nlm.nih.gov/36610813/
+Reference Abstract: CRISPR/Cas9 gene editing shows promise for treating hematological disorders by correcting disease-causing mutations in hematopoietic stem and progenitor cells.
+BART Summary: Gene therapy using CRISPR/Cas9 has shown promise for treating hematological disorders including sickle cell disease and beta-thalassemia. Clinical trials have demonstrated encouraging results with some patients achieving transfusion independence.
+T5 Summary: A gene therapy that targets hematopoietic stem cells has been shown to be a promising treatment for hematological disorders.
+------------------------------------------------------------
+
+Paper ID: paper_07
+Title: Memory CD8+ T Cell Diversity Following mRNA Vaccination
+Field: medicine
+Source: https://pubmed.ncbi.nlm.nih.gov/36138186/
+Reference Abstract: High responders to mRNA vaccination showed enhanced antibody neutralizing activity and increased frequency of central memory T cells compared to low responders.
+BART Summary: Analysis of B cell and T cell memory programs showed significant variability between individuals classified as high and low responders. High responders were characterized by enhanced antibody-neutralizing activity and durable spike-specific CD8+ T cell responses.
+T5 Summary: High responders are characterized by enhanced antibody-neutralizing activity, enhanced frequency of central memory T cells and durable spike-specific CD8+ T cell responses.
+------------------------------------------------------------
+
+Paper ID: paper_08
+Title: Multidrug-Resistant Bacteria: Mechanisms and Prophylaxis
+Field: medicine
+Source: https://pubmed.ncbi.nlm.nih.gov/36105930/
+Reference Abstract: Multidrug resistance in bacteria has become a critical public health concern driven by overuse of antibiotics and limited development of new antimicrobial agents.
+BART Summary:  resistance to antibiotics is one of the crucial issues related to public health. Earlier such resistance was limited to nosocomial infections but it has now become a common phenomenon across community settings. Several factors including extensive development overexploitation of antibiotics and excessive application of broad-spectrum drugs contribute to this condition.
+T5 Summary: Resistance to antibiotics is one of the crucial issues related to public health. It is one of the crucial issues related to public health. Factors including extensive development, overexploitation of antibiotics, excessive application of broad-spectrum drugs and a shortage of target-oriented antimicrobial drugs contribute to this condition.
+------------------------------------------------------------
+
+Paper ID: paper_09
+Title: mRNA Vaccines: Durable Immune Memory to SARS-CoV-2
+Field: medicine
+Source: https://pubmed.ncbi.nlm.nih.gov/34648302/
+Reference Abstract: mRNA vaccines induce robust and durable cellular immune memory to SARS-CoV-2 including antibody responses that persist for months after vaccination.
+BART Summary: Recall responses to vaccination in individuals with preexisting immunity primarily increased antibody levels. Both spike-specific CD4 and CD8 T cell responses were detectable months after vaccination. memory B cells continued to mature over time.
+T5 Summary: Recall responses to SARS-CoV-2 vaccination in individuals with preexisting immunity are primarily increased antibody levels without significantly altering antibody decay rates.
+------------------------------------------------------------
+
+Paper ID: paper_10
+Title: Antibiotic Resistance: Challenges and Emerging Strategies
+Field: medicine
+Source: https://pubmed.ncbi.nlm.nih.gov/35949048/
+Reference Abstract: Antibiotic resistance poses a global health threat requiring new antimicrobial strategies improved stewardship programs and international coordination to address rising resistant infections.
+BART Summary: The rise of multidrug-resistant organisms threatens to undermine decades of medical advances. Addressing this challenge requires a multifaceted approach including the development of new antimicrobial agents.
+T5 Summary: The challenges of antimicrobial resistance are a major global threat to public health. The need for a multifaceted approach is urgently needed.
+------------------------------------------------------------
+
