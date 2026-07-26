@@ -24,7 +24,7 @@ papers=[
     "field": "medicine",
     "title": "SARS-CoV-2 mRNA Vaccines: Immunological Mechanism and Beyond",
     "url": "https://pubmed.ncbi.nlm.nih.gov/33673048/",
-    "abstract": "To successfully protect against pathogen infection, a vaccine must elicit efficient adaptive immunity, including B and T
+    "abstract": "To successfully protect against pathogen infection, a vaccine must elicit efficient adaptive immunity, including B and T cell responses.",
     "text": """To successfully protect against pathogen infection, a vaccine must elicit efficient adaptive immunity, including B and T cell responses.
     While B cell responses are key, as they can mediate antibody-dependent protection, T cells can modulate B cell activity and directly contribute to the elimination of pathogen-infected cells.
     mRNA vaccines represent a promising platform for infectious disease prevention due to their ability to rapidly encode any antigen of interest and stimulate both humoral and cellular 
@@ -141,8 +141,8 @@ def load_papers():
   print(f'Loaded {len(prepared)} papers successfully!')
   return prepared
 
-if__name__ == '__main__':
-  papers_loaded - load_papers()
+if __name__ == '__main__':
+  papers_loaded = load_papers()
   for p in papers_loaded:
     print(f'{p['id']} - {p['title']} ({p['field']})')
     print(f'Source: {p['url']}\n')
