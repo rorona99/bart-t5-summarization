@@ -40,7 +40,7 @@ BART appears stronger on medical and scientific text. Full results for all
 10 papers are saved in outputs/samples.txt.
 
 ## Evaluation Metrics
-- ROGUE Score: measures word and phrase overlap
+- ROUGE Score: measures word and phrase overlap
 - BERTScore: measures semantic similarity
 
 ## Known Limitations
