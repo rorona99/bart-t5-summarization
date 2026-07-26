@@ -1,0 +1,23 @@
+BART vs T5 Summarization - Output Description
+==============================================
+
+What is in this folder:
+This folder contains the results from running both BART and T5 on 10 real 
+scientific papers pulled from PubMed. The goal was to compare how each model 
+summarizes the same text so we can see where each one does well and where 
+it falls short.
+
+File: samples.txt
+Each entry shows the paper title, field, source link, the original abstract 
+as a reference point, and then what BART and T5 each came up with. Reading 
+them side by side makes it easy to spot the differences.
+
+How the outputs were generated:
+Both models got the exact same input text for every paper. BART could handle 
+up to 1024 tokens of input and T5 up to 512. Both were set to generate 
+summaries between 30 and 150 tokens. No fine tuning was done on either model 
+since the focus of this project is comparing their pretrained behavior on 
+scientific text.
+
+Papers: 10 PubMed papers across medicine and biology
+Models: facebook/bart-large-cnn and google/flan-t5-base
