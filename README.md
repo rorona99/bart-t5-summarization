@@ -32,7 +32,7 @@ on real scientific research papers from PubMed. The goal is to evaluate which mo
 4. Summaries for all 10 papers will be saved to outputs/samples.txt
 
 ## Preliminary Results
-After running both models on 25 real PubMed papers covering topics like mRNA vaccines, antibiotic resistance, sickle cell disease, asthma, hypertension, thyroid disorders, and sexually transmitted infections, BART came out ahead on every metric. BART averaged a ROUGE-1 of 0.388, ROUGE-2 of 0.214, and ROUGE-L of 0.332 compared to T5 which scored 0.266, 0.096, and 0.210. The biggest gap was in ROUGE-2 where BART scored more than double T5 — meaning BART did a much better job picking up on the specific phrasing and terminology from the original abstracts. Based on these results BART appears to be the stronger model for scientific and medical text. Full results for all 25 papers are in outputs/rouge_results.txt and outputs/samples.txt.
+After running both models on 25 real PubMed papers covering topics like mRNA vaccines, antibiotic resistance, sickle cell disease, asthma, hypertension, thyroid disorders, and sexually transmitted infections, BART came out ahead on every metric. BART averaged a ROUGE-1 of 0.388, ROUGE-2 of 0.214, and ROUGE-L of 0.332 compared to T5 which scored 0.266, 0.096, and 0.210. The biggest gap was in ROUGE-2 where BART scored more than double T5 meaning BART did a much better job picking up on the specific phrasing and terminology from the original abstracts. Based on these results BART appears to be the stronger model for scientific and medical text. Full results for all 25 papers are in outputs/rouge_results.txt and outputs/samples.txt.
 
 ## Evaluation Metrics
 - ROUGE Score: measures word and phrase overlap
