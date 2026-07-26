@@ -5,7 +5,7 @@ This project compares two pretrained AI summarization models, BART and T5,
 on real scientific research papers from PubMed. The goal is to evaluate which model produces more accurate, readable, and useful summaries of scientific text.
 
 ## Models Used
-- facebook/bart-larg-cnn
+- facebook/bart-large-cnn
 - google/flan-t5-base
 
 ## Repository Structure
@@ -17,7 +17,7 @@ on real scientific research papers from PubMed. The goal is to evaluate which mo
 - outputs/description.txt     - Description of what was generated
 - data/processed/             - Cleaned paper text
 - requirements.txt            - Python dependencies
-- README.md                   - Project documentatio
+- README.md                   - Project documentation
 
 
 ## How to Setup
@@ -43,7 +43,7 @@ BART appears stronger on medical and scientific text. Full results for all
 - ROGUE Score: measures word and phrase overlap
 - BERTScore: measures semantic similarity
 
-## Known Limiations
+## Known Limitations
 - Both models have input token limits so long papers are truncated
 - Models were not fine tuned on scientific text
 - T5 base model is smaller than BART large which may affect comparison fairness
