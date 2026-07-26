@@ -1,0 +1,107 @@
+ROUGE Evaluation Results - BART vs T5
+============================================================
+
+Paper: Development of mRNA Vaccines and Their Delivery System
+BART - ROUGE-1: 0.371 | ROUGE-2: 0.353 | ROUGE-L: 0.371
+T5   - ROUGE-1: 0.486 | ROUGE-2: 0.343 | ROUGE-L: 0.270
+------------------------------------------------------------
+Paper: SARS-CoV-2 mRNA Vaccines Immunological Mechanism
+BART - ROUGE-1: 0.256 | ROUGE-2: 0.000 | ROUGE-L: 0.154
+T5   - ROUGE-1: 0.256 | ROUGE-2: 0.000 | ROUGE-L: 0.154
+------------------------------------------------------------
+Paper: Molecular Mechanisms of Antibiotic Resistance Revisited
+BART - ROUGE-1: 0.593 | ROUGE-2: 0.538 | ROUGE-L: 0.593
+T5   - ROUGE-1: 0.261 | ROUGE-2: 0.000 | ROUGE-L: 0.217
+------------------------------------------------------------
+Paper: Global Burden of Bacterial Antimicrobial Resistance in 2019
+BART - ROUGE-1: 0.360 | ROUGE-2: 0.208 | ROUGE-L: 0.320
+T5   - ROUGE-1: 0.389 | ROUGE-2: 0.118 | ROUGE-L: 0.278
+------------------------------------------------------------
+Paper: CRISPR Technology A Decade of Genome Editing
+BART - ROUGE-1: 0.341 | ROUGE-2: 0.154 | ROUGE-L: 0.341
+T5   - ROUGE-1: 0.108 | ROUGE-2: 0.057 | ROUGE-L: 0.108
+------------------------------------------------------------
+Paper: CRISPR Cas9 Gene Editing in Hematological Disorders
+BART - ROUGE-1: 0.390 | ROUGE-2: 0.256 | ROUGE-L: 0.341
+T5   - ROUGE-1: 0.345 | ROUGE-2: 0.074 | ROUGE-L: 0.345
+------------------------------------------------------------
+Paper: Memory CD8 T Cell Diversity Following mRNA Vaccination
+BART - ROUGE-1: 0.298 | ROUGE-2: 0.178 | ROUGE-L: 0.255
+T5   - ROUGE-1: 0.353 | ROUGE-2: 0.250 | ROUGE-L: 0.353
+------------------------------------------------------------
+Paper: Multidrug-Resistant Bacteria Mechanisms and Prophylaxis
+BART - ROUGE-1: 0.190 | ROUGE-2: 0.050 | ROUGE-L: 0.143
+T5   - ROUGE-1: 0.095 | ROUGE-2: 0.000 | ROUGE-L: 0.095
+------------------------------------------------------------
+Paper: mRNA Vaccines Durable Immune Memory to SARS-CoV-2
+BART - ROUGE-1: 0.208 | ROUGE-2: 0.000 | ROUGE-L: 0.167
+T5   - ROUGE-1: 0.333 | ROUGE-2: 0.176 | ROUGE-L: 0.222
+------------------------------------------------------------
+Paper: Antibiotic Resistance Challenges and Emerging Strategies
+BART - ROUGE-1: 0.333 | ROUGE-2: 0.059 | ROUGE-L: 0.278
+T5   - ROUGE-1: 0.364 | ROUGE-2: 0.000 | ROUGE-L: 0.242
+------------------------------------------------------------
+Paper: Asthma Medications and Management
+BART - ROUGE-1: 0.421 | ROUGE-2: 0.182 | ROUGE-L: 0.386
+T5   - ROUGE-1: 0.082 | ROUGE-2: 0.000 | ROUGE-L: 0.082
+------------------------------------------------------------
+Paper: Asthma Management in Adults
+BART - ROUGE-1: 0.520 | ROUGE-2: 0.333 | ROUGE-L: 0.440
+T5   - ROUGE-1: 0.323 | ROUGE-2: 0.000 | ROUGE-L: 0.194
+------------------------------------------------------------
+Paper: Advances in the Diagnosis and Treatment of Sickle Cell Disease
+BART - ROUGE-1: 0.417 | ROUGE-2: 0.391 | ROUGE-L: 0.417
+T5   - ROUGE-1: 0.250 | ROUGE-2: 0.087 | ROUGE-L: 0.167
+------------------------------------------------------------
+Paper: Development of Curative Therapies for Sickle Cell Disease
+BART - ROUGE-1: 0.275 | ROUGE-2: 0.041 | ROUGE-L: 0.196
+T5   - ROUGE-1: 0.250 | ROUGE-2: 0.053 | ROUGE-L: 0.250
+------------------------------------------------------------
+Paper: Updates in Hypertension New Trials and Treatment Targets
+BART - ROUGE-1: 0.471 | ROUGE-2: 0.364 | ROUGE-L: 0.471
+T5   - ROUGE-1: 0.053 | ROUGE-2: 0.000 | ROUGE-L: 0.053
+------------------------------------------------------------
+Paper: WHO Guideline for Pharmacological Treatment of Hypertension
+BART - ROUGE-1: 0.549 | ROUGE-2: 0.327 | ROUGE-L: 0.392
+T5   - ROUGE-1: 0.562 | ROUGE-2: 0.333 | ROUGE-L: 0.438
+------------------------------------------------------------
+Paper: Hypothyroidism Diagnosis and Evidence-Based Treatment
+BART - ROUGE-1: 0.612 | ROUGE-2: 0.468 | ROUGE-L: 0.612
+T5   - ROUGE-1: 0.182 | ROUGE-2: 0.000 | ROUGE-L: 0.182
+------------------------------------------------------------
+Paper: Evaluating Health Outcomes in the Treatment of Hypothyroidism
+BART - ROUGE-1: 0.483 | ROUGE-2: 0.214 | ROUGE-L: 0.379
+T5   - ROUGE-1: 0.050 | ROUGE-2: 0.000 | ROUGE-L: 0.050
+------------------------------------------------------------
+Paper: Management and Metabolic Characterization of Hyperthyroidism and Hypothyroidism
+BART - ROUGE-1: 0.444 | ROUGE-2: 0.186 | ROUGE-L: 0.400
+T5   - ROUGE-1: 0.267 | ROUGE-2: 0.143 | ROUGE-L: 0.267
+------------------------------------------------------------
+Paper: Updated Sexually Transmitted Infections Guidelines
+BART - ROUGE-1: 0.372 | ROUGE-2: 0.195 | ROUGE-L: 0.326
+T5   - ROUGE-1: 0.333 | ROUGE-2: 0.294 | ROUGE-L: 0.333
+------------------------------------------------------------
+Paper: Diagnosis and Treatment of Sexually Transmitted Infections A Review
+BART - ROUGE-1: 0.292 | ROUGE-2: 0.043 | ROUGE-L: 0.167
+T5   - ROUGE-1: 0.293 | ROUGE-2: 0.103 | ROUGE-L: 0.195
+------------------------------------------------------------
+Paper: Asthma Clinical Trials Update 2023
+BART - ROUGE-1: 0.441 | ROUGE-2: 0.281 | ROUGE-L: 0.441
+T5   - ROUGE-1: 0.174 | ROUGE-2: 0.000 | ROUGE-L: 0.174
+------------------------------------------------------------
+Paper: Sickle Cell Disease in the New Era Advances in Drug Treatment
+BART - ROUGE-1: 0.333 | ROUGE-2: 0.207 | ROUGE-L: 0.200
+T5   - ROUGE-1: 0.320 | ROUGE-2: 0.208 | ROUGE-L: 0.200
+------------------------------------------------------------
+Paper: Arterial Hypertension Clinical Trials Update 2023
+BART - ROUGE-1: 0.400 | ROUGE-2: 0.159 | ROUGE-L: 0.277
+T5   - ROUGE-1: 0.279 | ROUGE-2: 0.049 | ROUGE-L: 0.233
+------------------------------------------------------------
+Paper: Burden of Chlamydia Gonorrhea and Syphilis in Older Adults
+BART - ROUGE-1: 0.333 | ROUGE-2: 0.154 | ROUGE-L: 0.222
+T5   - ROUGE-1: 0.238 | ROUGE-2: 0.100 | ROUGE-L: 0.143
+------------------------------------------------------------
+
+=== AVERAGE SCORES ACROSS ALL 25 PAPERS ===
+BART - ROUGE-1: 0.388 | ROUGE-2: 0.214 | ROUGE-L: 0.332
+T5   - ROUGE-1: 0.266 | ROUGE-2: 0.096 | ROUGE-L: 0.210
